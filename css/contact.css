@@ -1,0 +1,141 @@
+
+body{
+    max-height: 500px !important;
+}
+
+h1{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 900;
+    letter-spacing: -1px;
+    color: #808080;
+    font-size: 60px;
+    margin-top: -20px;
+}
+
+/* main */
+
+main h2 {
+    padding-top: 50px;
+    text-align: center!important;
+    font-weight: 800;
+    color: #616161;
+    
+}
+
+main p{
+    padding-top: 11px;
+    line-height: 1.5;
+    text-align: center;
+    color: #777;
+}
+
+/* Errors */
+
+
+.form-con {
+    margin-top: 50px;
+  
+}
+
+.form input,
+.form textarea {
+    padding: 8px;
+    margin-top: 20px;
+   
+}
+
+.form i {
+    font-size: 20px;
+    color: white;
+    font-weight: 900;
+    padding: 12px;
+    background: dodgerblue;
+    color: white;
+    min-width: 60px;
+    text-align: center;
+    float: left;
+    position: relative;
+    height: 41px;
+    margin-bottom: -24px;
+    top: 20px
+
+}
+
+.form input:not([type="submit"]){
+    padding-left: 67px
+}
+
+.form .input-con {
+    overflow: hidden;
+    position: relative;
+}
+
+
+.form textarea {
+    height: 130px;
+}
+
+.img-con {
+    margin-top: 30px;
+   
+}
+
+/* Custom alert */
+
+
+.web-site .custom-alert {
+    padding: 10px 7px;
+    font-size: 15px;
+    margin-top: 6px;
+    margin-bottom: 0px;
+    display: none
+    
+}
+
+
+/*
+
+Media Query
+
+*/
+
+
+/* Smart Phons */
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+    .form-con {
+        margin-top: 5px;
+        margin-left: 0px
+    }
+    .img-con {
+        margin-top: 0px
+    }
+}
+
+
+/* Tablet */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .form-con {
+        margin-top: 8px;
+        margin-left: 0px
+    }
+    .img-con {
+        margin-top: 0px
+    }
+
+}
+
+
+/* Meduam Screen */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .form-con {
+        margin-top: 50px;
+        margin-left: 0px
+    }
+    .img-con {
+        margin-top: 50px
+    }
+
+}
